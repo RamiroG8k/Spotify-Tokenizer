@@ -1,11 +1,11 @@
 {
-  "name": "node-api",
+  "name": "spotify-tokenizer",
   "version": "1.0.0",
   "author": "Ramiro Mendez Lopez",
   "description": "Basic dependencies in Rest API with auth",
   "main": "index.js",
   "scripts": {
-    "start": "node build/index.js",
+    "start": "node ./build/index.js",
     "dev": "nodemon src/app.js --exec babel-node",
     "build": "babel src --out-dir build",
     "test": "echo \"Error: no test specified\" && exit 1"

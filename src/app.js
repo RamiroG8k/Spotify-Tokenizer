@@ -32,6 +32,6 @@ app.use(helmet());
 app.use('/api', routes);
 
 // Init
-app.listen(process.env.PORT, () => {
-    console.log('Server listening on Port:', process.env.PORT);
+app.listen(3000, () => {
+    console.log('Server listening on Port:', 3000);
 });

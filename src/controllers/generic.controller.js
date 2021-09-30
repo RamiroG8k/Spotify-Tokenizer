@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 
 export const sayHi = async (req, res) => {
-    res.status(200).json({ message: 'Hello world' });
+    res.status(200).json({ message: 'Hello Tokenizer' });
 };
 
 export const getToken = async (req, res) => {
